@@ -1,4 +1,4 @@
-FROM python:3.9.10-slim
+FROM python:slim-bookworm
 COPY app /capital/app
 COPY requirements.txt /capital
 COPY alembic.ini /capital
